@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+       <title>bigBurgerManu</title>
+       
+    <link rel="stylesheet" type="text/css" href="burger.css">
+    
+<head id = "brg">
+    Big Burder Manu 
+ </head>
+ 
+<body>
+ 
+  <p> <h4 id = "mnu">  <input type = "checkbox" checked disabled data-cost = "10" data-kkal = "75" class = "manu"> Булочка </p></h4> <hr>
+<!-- checked  озязательные элементы или по умолчанию.
+     disablad  - нельзя изменить-->
+<h2> Наполнение: </h2>
+<p> <input type = "checkbox" checked data-cost = "20" data-kkal = "200" class = "manu"> Котлета </p>
+<p> <input type = "checkbox"  data-cost = "12" data-kkal = "100" class = "manu"> Сыр </p>
+<p> <input type = "checkbox"  data-cost = "8" data-kkal = "50" class = "manu"> Салат </p>
+<p> <input type = "checkbox"  data-cost = "2" data-kkal = "20" class = "manu"> Огурец </p>
+<p> <input type = "checkbox"  data-cost = "4" data-kkal = "67" class = "manu"> Помидор </p>
+<hr>
+<h2> Соусы: </h2>
+<p> <input type = "checkbox"  data-cost = "5" data-kkal = "10" class="manu"> Томатный </p>
+<p> <input type = "checkbox"  data-cost = "5" data-kkal = "5" class="manu"> Горчица </p>
+<p> <input type = "checkbox"  data-cost = "5" data-kkal = "15" class="manu"> Майонез </p>
+<p> <input type = "checkbox"  data-cost = "10" data-kkal = "35" class="manu"> Тартар </p> <hr>
+<h3> И того:</h3> 
+<p> <span id = "kkal">   </span> Калорийность:   <span id = "cost"></span> Цена: </p> 
+<hr>
+
+<center><button id = "result">Результат</button></center>
+
+<script src="burger.js"></script>
+
+</body>
+</html>
